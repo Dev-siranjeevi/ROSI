@@ -1,0 +1,8 @@
+/* ===== Invitation content — edit here, no other file needs touching ===== */
+const SHARE_MSG="You’re warmly invited to the wedding of Siranjeevi & Roshna 💍\n10 December 2026 · Chennai\nTap to open your invitation:";
+/* PHOTOS: drop a 1200×800 photo named as in each `photo:` path into assets/img/ — it is used automatically.
+   Until the file exists, the matching illustration (`img:`) is shown instead. */
+const EV=[
+ {tag:"Wedding Ceremony",d:"THU",n:"10",m:"DEC",date:"Thursday, 10 December 2026",time:"9:00 AM – 10:30 AM",v:"Arulmigu Kandakottam Temple",a:"Park Town, Chennai – 600003",q:"Arulmigu Kandakottam Temple Park Town Chennai",s:"20261210T090000",e:"20261210T103000",photo:"assets/img/venue-ceremony.webp",img:"assets/img/scene-ceremony.svg",alt:"Illustration of a Dravidian temple gopuram glowing at golden hour, with garlands and oil lamps"},
+ {tag:"Reception · 10 December",d:"THU",n:"10",m:"DEC",date:"Thursday, 10 December 2026",time:"7:00 PM onwards",v:"Mother Marriage Mahal",a:"Tondiarpet, Chennai – 600081",q:"Mother Marriage Mahal Tondiarpet Chennai",s:"20261210T190000",e:"20261210T220000",photo:"assets/img/venue-chennai.webp",img:"assets/img/scene-reception-chennai.svg",alt:"Illustration of a Chennai wedding hall at night with fairy lights, marigold pillars, banana trees and a red carpet"},
+ {tag:"Reception · 14 December",d:"MON",n:"14",m:"DEC",date:"Monday, 14 December 2026",time:"6:30 PM onwards",v:"Sri Manipillai Marriage Hall",a:"Cuddalore – 607003",q:"Sri Manipillai Marriage Hall Cuddalore",s:"20261214T183000",e:"20261214T213000",photo:"assets/img/venue-cuddalore.webp",img:"assets/img/scene-reception-cuddalore.svg",alt:"Illustration of a Cuddalore wedding hall at coastal dusk, with palms, a flower arch and bunting"}];
